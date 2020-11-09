@@ -1,0 +1,11 @@
+<div class="center">
+  <h1>SCORE</h1>
+  <h2>Your word "<%= @word %>" is <strong><%= @result[:message] %></strong></h2>
+  <br>
+  <h2>
+    <strong>Your score is :</strong>
+    <br><br>
+    <span><%= @result[:score] %></span>
+  </h2>
+  <%= link_to "Play again", "/new" %>
+</div>
